@@ -24,7 +24,7 @@ Les différents codes HTTP se trouvent [ici](https://fr.wikipedia.org/wiki/Liste
 
 Nous allons mettre en place un script permettant, à heure régulière, de faire une requête à l'API, de traiter son code de retour, et de l'inscrire dans un fichier. Ici, ce sera un fichier CSV, mais il est également possible avec un fichier JSON, une base de données SQL, NoSQL, etc... Il n'y a pas de mauvaise façon de faire.
 
-[Lien du script]()
+[Lien du script](https://github.com/NonneTrapuE/Supervision/blob/main/Scripts/stripe.sh)
 
 Télécharger le script, remplissez les variables avec vos identifiants de compte et votre token. Le script est à exécuter en ***root***, ou vous pouvez modifier la destination du fichier CSV afin de correspondre avec les droits de votre utilisateur. 
 
